@@ -7,12 +7,12 @@ INSERT INTO subgenres VALUES (2, "Sub-genre 2");
 INSERT INTO authors VALUES (1, "Author 1");
 INSERT INTO authors VALUES (2, "Author 2");
 
-INSERT INTO books VALUES (1, "Book 1", "1999", 1);
-INSERT INTO books VALUES (2, "Book 2", "2000", 1);
-INSERT INTO books VALUES (3, "Book 3", "2001", 1);
-INSERT INTO books VALUES (4, "Book 4", "2013", 2);
-INSERT INTO books VALUES (5, "Book 5", "2014", 2);
-INSERT INTO books VALUES (6, "Book 6", "2015", 2);
+INSERT INTO books VALUES (1, "Book 1", 1999, 1);
+INSERT INTO books VALUES (2, "Book 2", 2000, 1);
+INSERT INTO books VALUES (3, "Book 3", 2001, 1);
+INSERT INTO books VALUES (4, "Book 4", 2013, 2);
+INSERT INTO books VALUES (5, "Book 5", 2014, 2);
+INSERT INTO books VALUES (6, "Book 6", 2015, 2);
 
 INSERT INTO characters VALUES (1, "Character 1", "Motto 1", "human", 1, 1);
 INSERT INTO characters VALUES (2, "Character 2", "Motto 2", "human", 1, 1);
