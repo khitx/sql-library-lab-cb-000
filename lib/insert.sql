@@ -1,8 +1,8 @@
 INSERT INTO series VALUES (1, "Series 1", 1, 1);
 INSERT INTO series VALUES (2, "Series 2", 2, 2);
 
-INSERT INTO sub_genre VALUES (1, "Sub-genre 1");
-INSERT INTO sub_genre VALUES (2, "Sub-genre 2");
+INSERT INTO subgenres VALUES (1, "Sub-genre 1");
+INSERT INTO subgenres VALUES (2, "Sub-genre 2");
 
 INSERT INTO authors VALUES (1, "Author 1");
 INSERT INTO authors VALUES (2, "Author 2");
