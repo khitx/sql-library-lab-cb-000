@@ -28,12 +28,19 @@ def select_name_and_series_subgenres_of_authors
 end
 
 def select_series_title_with_most_human_characters
-  "SELECT series.title, characters.species, COUNT(characters.species)
+  "SELECT series.title
     FROM series
     INNER JOIN characters ON series.id = characters.series_id
     GROUP BY characters.series_id
     HAVING characters.species = 'human' "
 end
+#{}"SELECT series.title, characters.species, COUNT(characters.species)
+#  FROM series
+#  INNER JOIN characters ON series.id = characters.series_id
+#  GROUP BY characters.series_id
+#  HAVING characters.species = 'human' "
+
+
 # GROUP BY characters.series_id
 # WHERE characters.species = 'Human'
 #{}"SELECT series.title
